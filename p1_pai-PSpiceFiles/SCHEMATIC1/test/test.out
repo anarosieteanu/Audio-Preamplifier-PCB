@@ -1,0 +1,179 @@
+
+**** 01/03/24 16:49:18 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\arosi\Desktop\P1_\p1_pai-pspicefiles\schematic1\test.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\arosi\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source P1_PAI
+C_C2         N06552 N06634  4.7u  TC=0,0 
+R_R3         0 N06800  2k TC=0,0 
+R_R7         N11122 N06800  22k TC=0,0 
+R_R1         0 N06894  100k TC=0,0 
+R_R13         VCC N08073  220k TC=0,0 
+Q_Q2         N06552 N06702 N06720 BC846B 
+C_C3         N06634 N06648  4.7u  TC=0,0 
+Q_Q1         N06702 N06758 N06800 BC846B 
+R_R12         N11425 N06894  1k TC=0,0 
+R_R11         N06884 N06894  55K TC=0,0 
+C_C4         0 N06880  10u  TC=0,0 
+R_R9         N06880 N06720  1 TC=0,0 
+C_C1         N06894 N06758  4.7u  TC=0,0 
+X_R14         0 N06648 N06648 POT PARAMS: SET=0.5 VALUE=50k
+R_R2         N12470 N12582  180k TC=0,0 
+V_V1         N06884 0  AC 0.1
++SIN 0 0.1v 1k 0 0 0
+R_R4         N06552 N09982  10k TC=0,0 
+R_R6         N08562 N06758  180k TC=0,0 
+V_V2         VCC 0 18v
+R_R5         0 N06880  1k TC=0,0 
+R_R15         N11126 N06634  68k TC=0,0 
+R_R17         N11122 N11126  10k TC=0,0 
+R_R18         VCC N08073  150k TC=0,0 
+R_R19         N06702 N08073  220k TC=0,0 
+R_R20         N08562 N06880  180k TC=0,0 
+C_C5         0 N06880  10u  TC=0,0 
+R_R22         N09982 VCC  10k TC=0,0 
+R_R23         N09982 VCC  10k TC=0,0 
+R_R24         0 N11425  3.3k TC=0,0 
+R_R25         0 N06800  2k TC=0,0 
+R_R26         N12458 N08073  15k TC=0,0 
+R_R27         N12582 N06702  15k TC=0,0 
+R_R28         N12470 N12458  10k TC=0,0 
+R_R29         0 N06894  100k TC=0,0 
+
+**** RESUMING test.cir ****
+.END
+
+**** 01/03/24 16:49:18 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\arosi\Desktop\P1_\p1_pai-pspicefiles\schematic1\test.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC846B          
+               NPN             
+       LEVEL    1            
+          IS    7.049000E-15 
+          BF  279.1          
+          NF    1            
+         VAF   62.37         
+         IKF     .2201       
+         ISE   59.160000E-15 
+          NE    1.81         
+          BR    3.816        
+          NR    1            
+         IKR    1.859        
+         ISC   16.170000E-15 
+          NC    2.394        
+          NK     .6305       
+         ISS    0            
+          RE    0            
+          RC    1.508        
+         CJE    9.485000E-12 
+         VJE     .5          
+         MJE     .3333       
+         CJC    7.287000E-12 
+         VJC     .5          
+         MJC     .3333       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  664.000000E-12 
+         XTF  147            
+         VTF   10            
+         ITF    4.664        
+          TR   10.000000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 01/03/24 16:49:18 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\arosi\Desktop\P1_\p1_pai-pspicefiles\schematic1\test.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   18.0000  (N06552)    6.1940 (N06634)     .0807 (N06648)    0.0000     
+
+(N06702)    1.4464 (N06720)     .7903 (N06758)     .6794 (N06800)     .0807     
+
+(N06880)     .7895 (N06884)    0.0000 (N06894)    0.0000 (N08073)   10.5880     
+
+(N08562)     .7344 (N09982)   14.0650 (N11122)     .0807 (N11126)     .0807     
+
+(N11425)    0.0000 (N12458)    9.9647 (N12470)    9.5491 (N12582)    2.0697 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_V2        -8.702E-04
+
+    TOTAL POWER DISSIPATION   1.57E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/03/24 16:49:18 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\arosi\Desktop\P1_\p1_pai-pspicefiles\schematic1\test.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

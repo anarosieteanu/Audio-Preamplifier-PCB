@@ -1,0 +1,9 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sat Jan 20 17:00:16 2024
+\t (00:00:00)         Host=ANAPC User=arosi Pid=13032 CPUs=8
+\t (00:00:00) CmdLine= padstack_editor -mpssession arosi -file ./#Taaaaau04800.tmp -pname SMD20_17 -data C:/Users/arosi/AppData/Local/Temp/#Taaaaaw04800.tmp
+\t (00:00:00) 
+\d (00:02:37) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:03:24) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:03:25) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\t (00:03:48)     Journal end - Sat Jan 20 17:04:05 2024

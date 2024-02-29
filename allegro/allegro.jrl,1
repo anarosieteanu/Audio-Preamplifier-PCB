@@ -1,0 +1,110 @@
+\t (00:00:03) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Sat Jan 20 23:42:37 2024
+\t (00:00:03)         Host=ANAPC User=arosi Pid=8876 CPUs=8
+\t (00:00:03) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:04) Design opened: C:/USERS/AROSI/DESKTOP/P1_ - COPY/allegro/P1_PCB_rev2.brd
+\i (00:00:04) trapsize 1092
+\i (00:00:04) trapsize 1117
+\i (00:00:04) trapsize 1117
+\i (00:00:04) trapsize 1082
+\i (00:00:05) etchedit 
+\i (00:03:35) generaledit 
+\i (00:03:37) setwindow form.find
+\i (00:03:37) FORM find all_off  
+\i (00:03:39) FORM find text YES 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom out 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom out 2018.81 307.83
+\i (00:03:41) trapsize 2165
+\i (00:03:42) zoom in 1 
+\i (00:03:42) setwindow pcb
+\i (00:03:42) zoom in 2710.45 17.75
+\i (00:03:42) trapsize 1082
+\i (00:03:46) zoom fit 
+\i (00:03:46) trapsize 1082
+\i (00:03:47) zoom in 1 
+\i (00:03:47) setwindow pcb
+\i (00:03:47) zoom in 282.60 621.40
+\i (00:03:47) trapsize 541
+\i (00:03:49) prepopup 139.72 763.20
+\i (00:03:51) pop dyn_option_select '@:@Text edit' 
+\i (00:03:51) text edit 
+\i (00:04:02) setwindow form.textedit
+\i (00:04:02) FORM textedit str TP2 
+\i (00:04:02) FORM textedit done  
+\i (00:04:02) setwindow pcb
+\i (00:04:02) pick 0.00 0.00
+\i (00:04:02) setwindow pcb
+\i (00:04:02) generaledit 
+\i (00:04:08) prepopup 348.63 661.46
+\i (00:04:10) pop dyn_option_select '@:@Text edit' 
+\i (00:04:10) text edit 
+\i (00:04:16) setwindow form.textedit
+\i (00:04:16) FORM textedit str TP1 
+\i (00:04:16) FORM textedit done  
+\i (00:04:16) setwindow pcb
+\i (00:04:16) pick 0.00 0.00
+\i (00:04:16) setwindow pcb
+\i (00:04:16) generaledit 
+\i (00:04:19) save 
+\i (00:04:20) fillin yes 
+\i (00:04:21) generaledit 
+\i (00:04:23) zoom fit 
+\i (00:04:23) trapsize 1082
+\i (00:05:09) artwork 
+\i (00:05:12) setwindow form.film_control
+\i (00:05:12) FORM film_control filmtree 'MULTISEL YES' SSTOP 
+\i (00:05:12) FORM film_control filmtree  SSTOP 
+\i (00:05:14) FORM film_control create  
+\t (00:05:14) Checking db records
+\t (00:05:14)     checking for orphans...
+\t (00:05:15)     Checked 100 percent
+\t (00:05:15) Done dbdoctor.
+\t (00:05:15) Starting Create artwork films...
+\w (00:05:15) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:05:16) Artwork generated with warnings.
+\i (00:05:18) setwindow pcb
+\i (00:05:18) setwindow text
+\i (00:05:18) close
+\i (00:05:19) setwindow form.film_control
+\i (00:05:19) FORM film_control ok  
+\i (00:05:19) setwindow pcb
+\i (00:05:19) generaledit 
+\i (00:06:47) zoom out 1 
+\i (00:06:47) setwindow pcb
+\i (00:06:47) zoom out 1090.09 301.00
+\i (00:06:47) trapsize 2165
+\i (00:06:48) save 
+\i (00:06:50) fillin yes 
+   (00:06:50) Loading signal.cxt 
+\i (00:06:50) generaledit 
+\i (00:06:53) zoom fit 
+\i (00:06:53) trapsize 1082
+\i (00:14:29) zoom out 1 
+\i (00:14:29) setwindow pcb
+\i (00:14:29) zoom out 802.16 803.25
+\i (00:14:29) trapsize 2165
+\i (00:16:22) nctape_full 
+\i (00:16:33) setwindow form.nc_drill
+\i (00:16:33) FORM nc_drill auto_tool_select YES 
+\i (00:16:36) FORM nc_drill parameters  
+\i (00:16:40) setwindow form.nc_parameters
+\i (00:16:40) FORM nc_parameters suppress_lead_zeroes YES 
+\i (00:16:41) FORM nc_parameters suppress_equal YES 
+\i (00:16:42) FORM nc_parameters enhanced_format YES 
+\i (00:16:49) FORM nc_parameters done  
+\i (00:16:52) setwindow form.nc_drill
+\i (00:16:52) FORM nc_drill execute  
+\t (00:16:52) Starting Generating NC Drill...
+\i (00:18:27) FORM nc_drill cancel  
+\i (00:18:27) setwindow pcb
+\i (00:18:27) generaledit 
+\i (00:18:29) save 
+\i (00:18:32) fillin yes 
+\i (00:18:32) generaledit 
+\i (00:18:34) exit 
+\t (00:18:34)     Journal end - Sun Jan 21 00:01:07 2024

@@ -1,0 +1,53 @@
+\t (00:00:03) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Sun Jan 21 00:16:37 2024
+\t (00:00:03)         Host=ANAPC User=arosi Pid=14992 CPUs=8
+\t (00:00:03) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:05) Design opened: C:/USERS/AROSI/DESKTOP/P1_ - COPY/allegro/P1_PCB_rev2.brd
+\i (00:00:05) trapsize 2184
+\i (00:00:05) trapsize 2234
+\i (00:00:05) trapsize 2234
+\i (00:00:06) trapsize 2165
+\i (00:00:06) generaledit 
+\i (00:02:31) zoom out 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom out 2213.65 71.86
+\i (00:02:31) trapsize 4330
+\i (00:02:31) zoom out 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom out 6589.87 71.87
+\i (00:02:31) trapsize 8659
+\i (00:02:32) zoom in 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom in 16279.74 71.87
+\i (00:02:32) trapsize 4330
+\i (00:02:34) zoom fit 
+\i (00:02:34) trapsize 1082
+\i (00:02:35) roam y 96 
+\i (00:02:35) roam y 96
+\i (00:02:36) roam y 96 
+\i (00:02:36) roam y 96
+\i (00:02:36) roam y 96 
+\i (00:02:36) roam y 96
+\i (00:02:36) roam y 96 
+\i (00:02:36) roam y 96
+\i (00:02:37) roam y 96 
+\i (00:02:37) roam y 96
+\i (00:02:37) roam y 96 
+\i (00:02:37) roam y 96
+\i (00:02:37) roam y 96 
+\i (00:02:37) roam y 96
+\i (00:02:38) roam x 96 
+\i (00:02:38) roam x 96
+\i (00:02:38) roam x 96 
+\i (00:02:38) roam x 96
+\i (00:02:38) roam x 96 
+\i (00:02:38) roam x 96
+\i (00:02:38) roam x 96 
+\i (00:02:38) roam x 96
+\i (00:02:39) roam x 96 
+\i (00:02:39) roam x 96
+\i (00:02:43) exit 
+\t (00:02:43)     Journal end - Sun Jan 21 00:19:17 2024
